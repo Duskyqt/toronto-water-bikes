@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'twb-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss']
+    selector: 'twb-footer',
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit(): void {
-  }
-  OnClick(): void{
-      document.documentElement.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-      })
-  }
+    ngOnInit(): void {
+    }
+    OnClick(): void {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }
 }
