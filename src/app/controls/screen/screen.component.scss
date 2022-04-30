@@ -4,3 +4,10 @@
     object-fit: fill;
     overflow: hidden;
 }
+.screen-text {
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
