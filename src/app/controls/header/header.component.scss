@@ -1,6 +1,7 @@
 .nav-header {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
+    height: 10vh;
   
 }
 mat-toolbar {
@@ -11,4 +12,7 @@ mat-toolbar {
 }
 .nav-button {
     border: 2px solid var(--highlight-color)
+}
+.nav-logo {
+    height: 100%;
 }
