@@ -1,0 +1,38 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+
+
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    font-family: Open Sans;
+    justify-content: center;
+    font-size: clamp(1.5em, 2vw, 4rem);
+    text-align: center;
+}
+
+.hero-button {
+    transition: all 250ms ease-in-out;
+    border: 2px solid var(--highlight-color);
+    border-radius: 10px;
+    color: var(--highlight-color);
+    background-color: transparent;
+    padding: 10px 35px;
+    margin-top: 1em;
+    font-size: 26px;
+    
+
+}
+
+.hero-button:hover {
+    color: black;
+    background-color: var(--highlight-color);
+    cursor: pointer;
+}

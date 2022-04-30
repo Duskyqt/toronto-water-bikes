@@ -1,5 +1,5 @@
 .footer {
-    background-color: aliceblue;    
+    background-color: var(--headerfooterColor);    
     padding: 3em 0 5em 0;
     width: 100%;
 }
@@ -31,4 +31,16 @@
 }
 .footer-socials {
     width: 100%;
+}
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container {
+        width: 80%;
+    }
 }

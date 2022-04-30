@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule } from '@angular/router';
 import { LinkComponent } from './link/link.component';
 import { HeroComponent } from './hero/hero.component';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [      
@@ -19,7 +20,8 @@ import { HeroComponent } from './hero/hero.component';
     ScreenComponent,
     SocialLinkComponent,
     LinkComponent,
-    HeroComponent
+    HeroComponent,
+    QuestionComponent
 ],
   imports: [    
     CommonModule,
@@ -33,7 +35,9 @@ import { HeroComponent } from './hero/hero.component';
     HeaderComponent,
     FooterComponent,
     ScreenComponent,
-    SocialLinkComponent
+    SocialLinkComponent,
+    HeroComponent,
+    QuestionComponent
   ]
 })
 export class ControlsModule { }

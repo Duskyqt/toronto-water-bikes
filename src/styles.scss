@@ -3,10 +3,11 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 :root {
     --highlight-color: #48D6FF;
+    --headerfooterColor: rgba(72, 214, 255, 0.25);
 }
 .page-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 5em auto 0 auto;
 }
 a {
     text-decoration: none;

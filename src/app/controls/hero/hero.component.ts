@@ -7,9 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
     @Input() title: string = '';
+    @Input() backgroundImage: string = '';
+    @Input() backgroundSize: string = 'cover';
+    @Input() heroTextColor: string = '';
     constructor() { }
 
-    ngOnInit(): void {
+    ngOnInit(): void {        
     }
+    OnClick(): void {
 
+    }
 }

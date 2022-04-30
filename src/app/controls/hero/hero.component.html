@@ -1,3 +1,9 @@
-<div class="hero-container">
-    <h1>{{title}}</h1>
+<div class="hero-container" [ngStyle]="{
+    'background-image': 'url('+backgroundImage+')',
+    'background-size': backgroundSize
+}">
+    <h1 class="hero-title" [ngStyle]="{'color': heroTextColor}">{{title}}</h1>
+    <a href="https://book.peek.com/s/dcce5dec-d710-4462-9848-c68b5b8b73f7/WRqbD" target="_blank">
+        <button class="hero-button" (click)="OnClick()">Book Now</button>
+    </a>
 </div>
