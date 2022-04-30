@@ -3,11 +3,14 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 :root {
     --highlight-color: #48D6FF;
-    --headerfooterColor: rgba(72, 214, 255, 0.25);
+    --headerfooterColor: rgba(72, 214, 255, 0.25);    
+    .question-text-link {
+        color: blue;
+    }
 }
 .page-container {
     width: 80%;
-    margin: 5em auto 0 auto;
+    margin: 5em auto;
 }
 a {
     text-decoration: none;
