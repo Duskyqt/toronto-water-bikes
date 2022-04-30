@@ -1,0 +1,34 @@
+.footer {
+    background-color: aliceblue;    
+    padding: 3em 0 5em 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 3em;
+    margin: 0 auto;
+    width: 30%;
+}
+.row {
+    display: flex;
+    align-items: center;
+    span {
+        margin-left: 1em;
+    }
+}
+.page-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
+.footer-logo {
+    width: 50%;
+}
+.footer-socials {
+    width: 100%;
+}

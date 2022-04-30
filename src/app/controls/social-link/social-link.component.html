@@ -1,0 +1,7 @@
+<div class="social-container">
+    <span *ngFor="let social of socials">
+        <a class="social-link" [href]="social.Url" [target]="target">
+            <fa-icon class="social-icon" size="4x" [icon]="social.Icon"></fa-icon>
+        </a>
+    </span>
+</div>

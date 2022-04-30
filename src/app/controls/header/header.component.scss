@@ -1,0 +1,14 @@
+.nav-header {
+    width: 100%;
+    justify-content: flex-end;
+  
+}
+mat-toolbar {
+    background-color: aliceblue;
+}
+.nav-links {
+    margin: 0 1em;
+}
+.nav-button {
+    border: 2px solid var(--highlight-color)
+}

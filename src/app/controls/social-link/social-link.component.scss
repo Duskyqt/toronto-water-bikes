@@ -1,0 +1,15 @@
+.social-icon {
+    transition: color 150ms ease-in-out;
+    margin: 0 auto;
+}
+.social-icon {
+    color: black;
+}
+.social-icon:hover {
+    color: var(--highlight-color)
+}
+.social-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+:root {
+    --highlight-color: #48D6FF;
+}
+.page-container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--highlight-color)
+}
+a:visited {
+    color: unset;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

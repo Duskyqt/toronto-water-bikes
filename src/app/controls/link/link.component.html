@@ -1,0 +1,9 @@
+<ng-container *ngIf="routerLink != ''">
+    <a mat-button class="link" [routerLink]="routerLink">{{text}}</a>
+</ng-container>
+<ng-container *ngIf="routerLink == '' && href != ''">
+    <a mat-button class="link" [href]="href" [target]="target">{{text}}</a>
+</ng-container>
+<ng-container *ngIf="routerLink == '' && href == ''">
+    <a mat-button class="link">{{text}}</a>
+</ng-container>
